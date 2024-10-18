@@ -18,25 +18,76 @@
         h1 {
             color: #333;
         }
-        .description {
+        .description, .projects, .skills, .contact {
             background-color: #fff;
             padding: 15px;
             border-radius: 8px;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
         }
         footer {
             text-align: center;
             margin-top: 20px;
             color: #777;
         }
+        .project {
+            margin-bottom: 10px;
+        }
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
 
 <header>
-    <h1>Your Name</h1>
+    <h1>Sonia Rohani</h1>
     <p>Front-End Developer</p>
 </header>
 
 <div class="description">
-    <p>I'm a front-end developer with over four years of experience in React and TypeScript. I'
+    <p>I'm a front-end developer with over four years of experience in React and TypeScript. I've worked on diverse projects, from mobile apps to migrating Angular apps to React. I’m passionate about creating clean code and enhancing user experiences. Explore my portfolio to see how I blend creativity and functionality in my work!</p>
+</div>
+
+<div class="projects">
+    <h2>Projects</h2>
+    <div class="project">
+        <h3>Project Title 1</h3>
+        <p>A brief description of the project. Technologies used: React, TypeScript.</p>
+        <a href="link-to-project-1" target="_blank">View Project</a>
+    </div>
+    <div class="project">
+        <h3>Project Title 2</h3>
+        <p>A brief description of the project. Technologies used: React, Redux.</p>
+        <a href="link-to-project-2" target="_blank">View Project</a>
+    </div>
+    <!-- Add more projects as needed -->
+</div>
+
+<div class="skills">
+    <h2>Skills</h2>
+    <ul>
+        <li>React</li>
+        <li>TypeScript</li>
+        <li>Redux</li>
+        <li>JavaScript</li>
+        <li>CSS</li>
+        <li>Styled Components</li>
+    </ul>
+</div>
+
+<div class="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:rrsonia10@example.com">rrsonia10@example.com</a></p>
+</div>
+
+<footer>
+    <p>&copy; 2024 Sonia Rohani. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
